@@ -18,9 +18,9 @@ public class ThrowandThrows1 {
 	//bhavesh
 	void m3() throws ArithmeticException , IOException, ClassNotFoundException
 	{
-		throw new  ArithmeticException("");
+		//throw new  ArithmeticException("");
 		throw new  IOException("");
-		throw new  ClassNotFoundException("");
+		// new  ClassNotFoundException("");
 		
 	}
 	
