@@ -21,9 +21,13 @@ public class KIA_Motors {
 			KIA_Motors object=new KIA_Motors ();
 			object.display ();
 			object.welcome();
+			object.noCar=1987;
 			object.model="KIA";
-			System.out.println(object.speed);
+			object.engine="Smartstream";
+			System.out.println(object.noCar);
 			System.out.println(object.model);
+			System.out.println(object.engine);
+			System.out.println(object.speed);
 			}
 
 }

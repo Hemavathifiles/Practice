@@ -1,4 +1,4 @@
-package JaggedArray;
+package org.tns.capgemini.corejava.packages;
 
 public class JaggedArray {
     public static void main(String[] args) {

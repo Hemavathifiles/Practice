@@ -3,7 +3,8 @@ package demo;
 public class IfElseIfLadderDemo {
 
 	public static void main(String[] args) {
-		int score = 85;
+		String name="Akash";
+		int score = 59;
 
 		if (score >= 90) {
 		    System.out.println("Grade: A");

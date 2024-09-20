@@ -4,7 +4,7 @@ public class NestedIfDemo {
 
 	public static void main(String[] args) {
 		double purchaseAmount = 0;
-		boolean isMember = false;
+		boolean isMember = true;
 
 		if (isMember) {
 		    if (purchaseAmount > 100) {
