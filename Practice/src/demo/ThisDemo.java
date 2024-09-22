@@ -31,6 +31,8 @@ public class ThisDemo {
 		obj.setAge(20);
 		obj.setName("bobe");
 		obj.setAge(40);
+		obj.setName("JOEL");
+		obj.setAge(40);
 		obj.getName();
 		obj.getAge();
 		obj.displayDetails();
