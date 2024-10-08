@@ -36,7 +36,7 @@ public class StaticVar {
         System.out.println("\nMobile 2 Details:");
         mobile2.displayDetails();
 
-        
+        System.out.println(StaticVar.category);
        
     }
 }

@@ -20,7 +20,8 @@ class PayPal extends PaymentMethod {
 
 public class Instanceof2 {
     public static void main(String[] args) {
-        PaymentMethod payment = new CreditCard(); // Payment can be of any type
+        PaymentMethod payment = new  PaymentMethod(); // Payment can be of any type
+        payment = new CreditCard();
 
         if (payment instanceof CreditCard) {
             CreditCard cc = (CreditCard) payment;

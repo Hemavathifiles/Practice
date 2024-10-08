@@ -7,7 +7,7 @@ public class StringBufferDemo {
 
         // Create the first thread
         Thread thread1 = new Thread(() -> {
-            buffer.append("Message from Thread 1\n");
+        	buffer.append("Message from Thread 1\n");
         });
 
         // Create the second thread
@@ -21,13 +21,13 @@ public class StringBufferDemo {
 
         // Wait for both threads to finish
         try {
-            thread1.join();
-            thread2.join();
+            thread1.join();//This means "wait here until thread1 is done."
+            thread2.join();//This means "wait here until thread2 is done."
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
-        // Print the final content of the StringBuffer
+        // toString -convert object into string representation
         System.out.println("Final StringBuffer Content:\n" + buffer.toString());
     }
 }

@@ -8,7 +8,7 @@ public class StringDemo {
 		String s3="Greetings";
 		String s4=new String("Greetings");
 		String s5="Hello World";
-		if (s1==s3)
+		if (s1==s2) // in order to compare reference or address
 		{
 			System.out.println("Reference pointing to the same object");
 		}

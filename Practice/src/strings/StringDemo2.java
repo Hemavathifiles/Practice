@@ -18,3 +18,7 @@ public class StringDemo2 {
         System.out.println("s2: " + s2); // Output: s2: Hello
     }
 }
+
+//s1 is now reassigned to new string object containing "world".
+//This does not changes the original string object 'hello' instead s1 now points to a new String object ,
+//while s2 still points to the original string "hello".

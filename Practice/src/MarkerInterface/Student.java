@@ -6,11 +6,9 @@ public class Student implements Registrable {
 	private String name;
 	private double fees;
 	private String course;
-
 	
-
 	public Student(int id, String name, double fees, String course) {
-		
+		super();
 		this.id = id;
 		this.name = name;
 		this.fees = fees;
@@ -51,4 +49,5 @@ public class Student implements Registrable {
 
 	
 
+	
 }

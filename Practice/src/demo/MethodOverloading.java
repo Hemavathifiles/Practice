@@ -23,7 +23,7 @@ public class MethodOverloading {
 		 MathOp obj=new  MathOp();
 		   System.out.println(obj.add(4, 8));
 		   System.out.println(obj.add(4, 8,5));
-
+		   System.out.println(obj.add(4, 8.5));
 	}
 
 }

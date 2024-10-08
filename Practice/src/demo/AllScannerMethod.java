@@ -29,6 +29,7 @@ public class AllScannerMethod {
         // Prompt and read the user's favorite quote (String)
         System.out.print("Enter your favorite quote: ");
         String favoriteQuote = scanner.nextLine();
+        scanner.nextLine();
 
         // Prompt and read the user's favorite hobby (String)
         // Changed to nextLine() to allow for spaces in the hobby

@@ -8,6 +8,8 @@ interface Vehicle {
 
  // Variables in an interface are final and static by default
  int MAX_SPEED = 120;  // Maximum speed of any vehicle, initialized once
+
+ 
 }
 
 //Implement the interface in a class
